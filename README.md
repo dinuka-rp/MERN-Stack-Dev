@@ -1,6 +1,6 @@
 # MERN-Stack-Dev
 
-This repository contains code which I learnt in my MERN-Stack Develeopment lecture which was conducted by Miss. Krishnakripa Jayakumar.<br/><br/>
+This repository contains code which I learnt in my MERN-Stack Develeopment lecture which was conducted by Miss. [Krishnakripa Jayakumar](https://www.linkedin.com/in/kripajayakumar/).<br/><br/>
 A React application was created with the use of Express Framework over Node.js as the backend and MongoDB as the NoSQL database.
 
 ---
