@@ -14,3 +14,5 @@ MongoDB: NoSQL database<br/>
 Express: Framework for Node.js<br/>
 React: Library for building user interfaces<br/>
 Node.js: A runtime environment. Not a programming language, not a framework
+
+API (Application Programming Interface): Interface used by programs to interact with an application.
