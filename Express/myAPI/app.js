@@ -14,7 +14,8 @@ const loggerJob = require("./middleware/logger");
 const avengers = require("./routes-middleware/heroes");
 
 index.use(cors());              //Enables other domains to send API requests
-index.use(express.json());      //returning a middleware
+index.use(express.json());     //converting JSON value in body of incoming request to readable format
+ //returning a middleware
 index.use(emailJob);
 index.use(loggerJob);
 // index.use("/api/avengers", avengers);

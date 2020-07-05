@@ -4,7 +4,7 @@ const router = express.Router();
 const PORT = 5001;
 const Avenger = require("../models/avenger");
 
-// app.use(express.json())     //converting JSON value in body to readable format
+// app.use(express.json())     //converting JSON value in body of incoming request to readable format
 
 // let avengersArray =[
 //     {id:1, name: 'Iron Man'},
