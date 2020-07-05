@@ -13,7 +13,7 @@ var server = http.createServer((req,res)=>{         //arrow function (passing on
     
         res.write(JSON.stringify("Hello World!"));          //Sending JSON format
         res.writeHead(200, {"Content-Type": "application/JSON"});
-        res.end();          //if the response isn't ended, the page will remaing hanging (loading)
+        res.end();          //if the response isn't ended, the page will remain hanging (loading)
     }
     // if(req.url === '/'){                //request function
     //     //if the request URL is the home/ primary URL

@@ -1,5 +1,6 @@
 /* LOCAL MODULE */
 
+// Exported Object
 var log = {         //this is an object
     logWarningMessage : function(message){
         console.log("Warning : "+message);
@@ -16,7 +17,7 @@ var log = {         //this is an object
 
 
 
-
+// Methods exported later
 // var logWarningMessage = function(message){
 //     console.log("Warning : "+message);
 // };
@@ -29,6 +30,7 @@ var log = {         //this is an object
 //     console.log("Info : "+message);
 // };
 
+// Testing in this file
 // logWarningMessage("The app has crashed");
 // logInfoMessage("The app has restarted");
 // logErrorMessage("An error has occured");
